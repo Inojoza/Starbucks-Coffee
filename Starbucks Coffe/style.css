@@ -1,0 +1,117 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1800px;
+    margin:0 auto;
+    padding: 0 2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden ;
+}
+header{
+    height: 200px ;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.logo img{
+
+    height: 130px;
+}
+
+.menu{
+    width:50%;
+    padding-top: 60px;
+    text-align: right;
+    font-size: 150%;
+}
+.menu a{
+    color: black;
+    font-weight:bold;
+    margin-right: 30px;
+    text-decoration: none;
+    
+}
+
+section.sobre{
+    height: calc(100% - 200px)
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -480px;
+    right: -520px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+.café{
+    position: relative;
+    bottom: 120px;
+    right: 240px;
+
+}
+
+.Social-Media{
+    position: absolute;
+    bottom: 430px;
+    right: 290px;
+
+}
+
+.Social-Media img{
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin: 25px 0;
+    
+}
+
+.texto-sobre{
+
+    margin-top: 100px;
+
+}
+
+.texto-sobre h1{
+    font-size: 80px;
+
+}
+
+.texto-sobre p{
+
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.texto-sobre button{
+
+    border: 0;
+    background-color: #017143;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
